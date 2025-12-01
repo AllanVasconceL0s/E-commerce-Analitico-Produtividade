@@ -1,145 +1,78 @@
-<h1 align="center" style="font-weight: bold;">E-Commerce Analítico (Produtividade) 💻</h1>
+<h1 align="center" style="font-weight: bold;">FAZ@FEIRA 💻 VIRTUAL</h1>
 
 <p align="center">
- <a href="#tech">Technologies</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#routes">API Endpoints</a> •
- <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+    <b>Projeto acadêmico proposto pelas disciplinas de Estatística e Probabilidade, professor João Tinnoco, com o propósito proporcionar maior entendimeto de analise de dados, estatísticas e probabilidades para  fornecermos respostas confiáveis e estatisticamente fundamentadas sobre o desempenho de um e-commerce brasileiro. Com objetivo principal de produzir um Relatório Analítico Acionável que demonstre o estado da receita, margens, logística e comportamento do cliente, auxiliando a Diretoria na tomada de decisões estratégicas</b>
+</p>
+
+
+<h2 id="started">📝 PROBLEMÁTICA</h2>
+
+
+<p align="center">
+    <b>Você é o time de Dados de um e-commerce brasileiro. A direção quer respostas confiáveis (com tratamento estatístico) sobre receita, margens, frete, prazos de entrega e comportamento do cliente. 
+ O objetivo é produzir um relatório analítico (acompanhado de um notebook e/ou SQL) que demonstra a análise exploratória de dados realizada. </b>
+</p>
+
+
+<h2 id="started">🚀 SOLUÇÃO</h2>
+
+
+<p align="center">
+    <b>A análise foca em garantir a qualidade dos dados e o uso de inferência estatística (Intervalos de Confiança) para validar os resultados. </b>
+</p>
+
+
+<h2 id="relato">📝 RELATO</h2>
+
+
+<p align="center">
+    <b>Projeto acadêmico proposto pelas disciplinas de Estatística e Probabilidade de Dados, professor(a) João Victor Tinoco de Souza Abreu, ao qual desempenhamos atividades em equipe formada por Allan Vasconcelos, de uma analise de dados com a lnguagem de programação PYTHON, Implementação de todo o pipeline de ETL e Análise, Manipular/Análise Pandas,NumPy Limpeza, Engenharia de Recursos e cálculos estatísticos. Estatística SciPy Cálculo de Intervalos de Confiança (ICs) para médias e proporções. Visualização Matplotlib,Seaborn Geração de gráficos para EDA (histogramas, boxplots, heatmaps). BD SQLAlchemy,mysql-connector-python Interface entre Python e MySQL. Processo dinâmico, utilizando metodologias de porocessos Ágeis como Scrum para o gerenciamento das atividades para a criação e aprovação das idealizações, construção das apresentações em slides, da problemática e solução. Projeto gratificante que nos enriquece com tantos conhecimentos e informações adquiridos e compartilhados tendo o apoio de todos os Professores envolvidos, monitores e colegas da faculdade.
+</b>
+</p>
+
+<h2 id="technologies">💻 Tecnologias (Technologies)</h2>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,py,mysql,react,ts,vscode,yarn" />
+  </a>
 </p>
 
 <p align="center">
-    <b>O objetivo principal é produzir um Relatório Analítico Acionável que demonstre o estado da receita, margens, logística e comportamento do cliente, auxiliando a Diretoria na tomada de decisões estratégicas. 
-
-A análise foca em garantir a qualidade dos dados e o uso de inferência estatística (Intervalos de Confiança) para validar os resultados.</b>
+-  PYTHON  -  Git | GitHub  -  Pandas  -  MySQL  -  VSCode  -  NumPy  -  Matpltlib   -   SciPy
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="started">🚀 Começando (Getting started)</h2>
 
-- list of all technologies you used
-- Python
-- MySQL
-- Pandas
+Descrição de como usar o projeto local. (Describe how to run your project locally)
 
-<h2 id="started">🚀 Getting started</h2>
-
-Here you describe how to run your project locally
-
-<h3>Prerequisites</h3>
-
-Here you list all prerequisites necessary for running your project. For example:
+<h3i id="prerequisites">📎Pré-Requisitos (Prerequisites)</h3>
 
 - [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- [Yarn](https://github.com)
 
-<h3>Cloning</h3>
+<h2 id="cloning">🌀 Clonando (Cloning)</h2>
 
-How to clone your project
+git clone https://github.com/allanvasconcel0s
 
-```bash
-git clone your-project-url-in-github
-```
+<h2 id="terminal">💻 Terminal no VSCode(Terminal in VSCode)</h2>
 
-<h3>Config .env variables</h2>
+# Instale as bibliotecas necessárias no seu ambiente
+ 
+ - pip install pandas numpy sqlalchemy pymysql
 
-Use the `.env.example` as reference to create your configuration file `.env` with your AWS Credentials
 
-```yaml
-NODE_AWS_REGION=us-east-1
-NODE_AWS_KEY_ID={YOUR_AWS_KEY_ID}
-NODE_AWS_SECRET={YOUR_AWS_SECRET}
-```
+<h2 id="colab">🤝 COLABORADORES</h2>
 
-<h3>Starting</h3>
-
-How to start your project
-
-```bash
-cd project-name
-npm some-command-to-run
-```
-
-<h2 id="routes">📍 API Endpoints</h2>
-
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
-| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
-
-<h3 id="get-auth-detail">GET /authenticate</h3>
-
-**RESPONSE**
-```json
-{
-  "name": "Fernanda Kipper",
-  "age": 20,
-  "email": "her-email@gmail.com"
-}
-```
-
-<h3 id="post-auth-detail">POST /authenticate</h3>
-
-**REQUEST**
-```json
-{
-  "username": "fernandakipper",
-  "password": "4444444"
-}
-```
-
-**RESPONSE**
-```json
-{
-  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
-}
-```
-
-<h2 id="colab">🤝 Collaborators</h2>
-
-Special thank you for all people that contributed for this project.
+Adradecimentos especiasis para os contrinuintes deste projeto. Special thank you for all people that contributed for this project.
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
+        <img src="https://avatars.githubusercontent.com/u/157706379?v=4" width="100px;" alt="(https://github.com/AllanVasconceL0s)"/><br>
         <sub>
-          <b>Fernanda Kipper</b>
+          <b>Allan Vasconcelos</b>
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
-        <sub>
-          <b>Elon Musk</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
 </table>
-
-<h2 id="contribute">📫 Contribute</h2>
-
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
-
-1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
-2. `git checkout -b feature/NAME`
-3. Follow commit patterns
-4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
