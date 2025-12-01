@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">E-Commerce Analítico (Produtividade) 💻</h1>
 
 <p align="center">
  <a href="#tech">Technologies</a> • 
@@ -9,15 +9,17 @@
 </p>
 
 <p align="center">
-    <b>Simple description of what your project do or how to use it.</b>
+    <b>O objetivo principal é produzir um Relatório Analítico Acionável que demonstre o estado da receita, margens, logística e comportamento do cliente, auxiliando a Diretoria na tomada de decisões estratégicas. 
+
+A análise foca em garantir a qualidade dos dados e o uso de inferência estatística (Intervalos de Confiança) para validar os resultados.</b>
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
 
 - list of all technologies you used
-- Java
-- MongoDB
-- NodeJS
+- Python
+- MySQL
+- Pandas
 
 <h2 id="started">🚀 Getting started</h2>
 
