@@ -1,60 +1,143 @@
-     
-      5. <p align="center">
-    <img src="./.github/logo.png" width="200px">
+<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#routes">API Endpoints</a> •
+ <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
 </p>
 
 <p align="center">
-<b>This repository provides a series of README templates to help developers document their projects 🚀👩‍💻</b>
+    <b>Simple description of what your project do or how to use it.</b>
 </p>
 
-_Read this in other languages:_
-[_Português_](./translations/README-ptBR.md),
-<!-- [_Español_](README.es-ES.md), -->
+<h2 id="technologies">💻 Technologies</h2>
 
-<h2 id="templates">📝 Templates</h2>
+- list of all technologies you used
+- Java
+- MongoDB
+- NodeJS
 
-<div>
+<h2 id="started">🚀 Getting started</h2>
 
-[SIMPLE_FRONT__BADGE]: https://img.shields.io/badge/Simple_Frontend-000?style=for-the-badge&logo=html
-[SIMPLE_BACK__BADGE]: https://img.shields.io/badge/Simple_Backend-000?style=for-the-badge&logo=code
-[BADGES_FRONT__BADGE]: https://img.shields.io/badge/W/_Badges_Frontend-000?style=for-the-badge&logo=badge
-[BADGES_BACK__BADGE]: https://img.shields.io/badge/W/_Badges_Backend-000?style=for-the-badge&logo=badge
-[MINIMALIST__BADGE]: https://img.shields.io/badge/Minimalist-000?style=for-the-badge&logo=badge
+Here you describe how to run your project locally
 
-[![backend-simple][SIMPLE_BACK__BADGE]](./simple/backend.md)
-[![frontend-simple][SIMPLE_FRONT__BADGE]](./simple/frontend.md)
-[![frontend-badges][BADGES_FRONT__BADGE]](./badges/frontend.md)
-[![backend-badges][BADGES_BACK__BADGE]](./badges/backend.md)
-[![minimalist][MINIMALIST__BADGE]](./minimalist/readme.md)
+<h3>Prerequisites</h3>
 
-</div>
+Here you list all prerequisites necessary for running your project. For example:
 
-<h2 id="contribute">Contribute 🚀</h2>
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
 
-If you want to contribute, clone this repo, create your work branch and get your hands dirty!
+<h3>Cloning</h3>
+
+How to clone your project
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/Readme-Templates.git
+git clone your-project-url-in-github
 ```
+
+<h3>Config .env variables</h2>
+
+Use the `.env.example` as reference to create your configuration file `.env` with your AWS Credentials
+
+```yaml
+NODE_AWS_REGION=us-east-1
+NODE_AWS_KEY_ID={YOUR_AWS_KEY_ID}
+NODE_AWS_SECRET={YOUR_AWS_SECRET}
+```
+
+<h3>Starting</h3>
+
+How to start your project
 
 ```bash
-git checkout -b feature/NAME
+cd project-name
+npm some-command-to-run
 ```
 
-At the end, open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+<h2 id="routes">📍 API Endpoints</h2>
 
-[How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request) |
-[Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
+| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
 
+<h3 id="get-auth-detail">GET /authenticate</h3>
 
-<h2 id="license">License 📃 </h2>
+**RESPONSE**
+```json
+{
+  "name": "Fernanda Kipper",
+  "age": 20,
+  "email": "her-email@gmail.com"
+}
+```
 
-This project is under [MIT](./LICENSE) license
+<h3 id="post-auth-detail">POST /authenticate</h3>
 
+**REQUEST**
+```json
+{
+  "username": "fernandakipper",
+  "password": "4444444"
+}
+```
 
+**RESPONSE**
+```json
+{
+  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
+}
+```
 
+<h2 id="colab">🤝 Collaborators</h2>
 
-      6. Verificação de Suposições: Assegurar que os testes e cálculos são estatisticamente válidos (ex: validando o uso do Teorema do Limite Central devido ao tamanho da amostra).
-      7.
-      8. 4. Geração de Insights Acionáveis ​​(Business Value) 💡Concluir o trabalho com recomendações práticas e diretas para a Direção.Diagnóstico: Apresentar os sinais de alerta (ex: alta taxa de cancelamento em um método de pagamento, baixa oferta de desconto) e as oportunidades (ex: otimização logística em regiões específicas).
-         5. Relatório e Reprodutibilidade: Entregar um Relatório Analítico conciso e bem estruturado (PDF/MD), acompanhado do código ( notebooke SQL), garantindo transparência e reprodutibilidade da análise.
+Special thank you for all people that contributed for this project.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
+        <sub>
+          <b>Fernanda Kipper</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
+        <sub>
+          <b>Elon Musk</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Steve Jobs</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h2 id="contribute">📫 Contribute</h2>
+
+Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
+
+1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
