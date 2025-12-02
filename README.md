@@ -31,15 +31,17 @@
 </p>
 
 <h2 id="technologies">💻 Tecnologias (Technologies)</h2>
+<p align="center"> <b>🛠️ Pilha Tecnológica Componente Ferramenta Uso Banco de Dados MySQL Armazenamento e execução de JOINscomplexos para consolidação dos dados. Linguagem Python 3.x Implementação de todo o pipeline de ETL e Análise. Manipular/Análise Pandas,NumPy Limpeza, Engenharia de Recursos e cálculos estatísticos. Estatística SciPy Cálculo de Intervalos de Confiança (ICs) para médias e proporções. Visualização Matplotlib,Seaborn Geração de gráficos para EDA (histogramas, boxplots, heatmaps). BD SQLAlchemy,mysql-connector-python Interface entre Python e MySQL</b></p>
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,py,mysql,react,ts,vscode,yarn" />
   </a>
 </p>
 
-<p align="center">
+<p align="center"><b>
 -  PYTHON  -  Git | GitHub  -  Pandas  -  MySQL  -  VSCode  -  NumPy  -  Matpltlib   -   SciPy
-</p>
+</b></p>
 
 <h2 id="started">🚀 Começando (Getting started)</h2>
 
