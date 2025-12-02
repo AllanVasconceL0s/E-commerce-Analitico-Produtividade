@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">FAZ@FEIRA 💻 VIRTUAL</h1>
+<h1 align="center" style="font-weight: bold;">E-Commerce 💻 Analítico 📊 Produtividade</h1>
 
 <p align="center">
     <b>Projeto acadêmico proposto pelas disciplinas de Estatística e Probabilidade, professor João Tinnoco, com o propósito proporcionar maior entendimeto de analise de dados, estatísticas e probabilidades para  fornecermos respostas confiáveis e estatisticamente fundamentadas sobre o desempenho de um e-commerce brasileiro. Com objetivo principal de produzir um Relatório Analítico Acionável que demonstre o estado da receita, margens, logística e comportamento do cliente, auxiliando a Diretoria na tomada de decisões estratégicas</b>
