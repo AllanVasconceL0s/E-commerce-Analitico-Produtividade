@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 6))
+# Usamos o eixo Y em escala logarítmica para lidar com a forte assimetria
+sns.boxplot(y=df['Total'], color='skyblue')
+plt.title('Boxplot do Ticket Médio (Total) - Escala Logarítmica')
+plt.ylabel('Valor do Pedido (R$)')
+plt.yscale('log') # Aplica escala logarítmica
+plt.show()

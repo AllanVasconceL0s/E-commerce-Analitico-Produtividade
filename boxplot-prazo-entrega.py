@@ -1,0 +1,8 @@
+plt.figure(figsize=(12, 7))
+# Segmenta o lead time pelo tipo de serviço (Standard, Same-Day, Scheduled)
+sns.boxplot(x='Service', y='delivery_lead_time', data=df, palette='Set2')
+plt.title('Boxplot do Prazo de Entrega (Lead Time) por Serviço')
+plt.xlabel('Serviço de Entrega')
+plt.ylabel('Prazo de Entrega (Dias)')
+plt.ylim(0, df['delivery_lead_time'].quantile(0.99)) # Limita Y para focar na distribuição principal (evita outliers extremos)
+plt.show()
